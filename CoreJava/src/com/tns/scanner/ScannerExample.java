@@ -8,7 +8,7 @@ public class ScannerExample {
 	     System.out.println("Enter Your RollNo:");
 	     int rollNo = Sc.nextInt();
 	     System.out.println("Enter Your Branch:");
-	     String branch = Sc.nextLine();
+	     String branch = Sc.next();
 	}
 
 }
