@@ -32,6 +32,7 @@ public class Laptop implements Comparable<Laptop> {
 		this.price = price;
 		this.ram   = ram;
 	}
+	
 	@Override
 	public int compareTo(Laptop o) {
 		if(this.getPrice()<o.getPrice()) {
@@ -42,5 +43,6 @@ public class Laptop implements Comparable<Laptop> {
 		}
 	
 	}
+	
 	
 }
