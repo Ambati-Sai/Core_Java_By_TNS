@@ -2,8 +2,8 @@ package com.tns.lamdaexpressions;
 
 public class Lamdamain {
 	public static void main(String[] args) {
-		Interfacedemo id = (a)-> {System.out.println("Square of a number:"+(a*a));};
-		id.show(2);
+		Interfacedemo id = (a)-> {return a*a;};
+		System.out.println("Square of a number:"+id.show(2));
 	}	
 
 }
