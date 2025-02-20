@@ -1,6 +1,6 @@
 package com.tns.lamdaexpressions;
 
 public interface Interfacedemo {
-	void show();
+	void show(int a);
 
 }
